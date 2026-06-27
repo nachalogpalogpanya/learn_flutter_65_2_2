@@ -1,4 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <user-permission android:name="android.permission.INTERNET" />
+    <user-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:label="Noted"
         android:name="${applicationName}"
